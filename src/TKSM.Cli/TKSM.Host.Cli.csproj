@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Profiles\" />
+    <Folder Include="Shell\" />
+  </ItemGroup>
+
 </Project>
