@@ -189,3 +189,25 @@ To validate the model:
 
 The TKSM Kernel is a **scheduler-first architecture**: one living heartbeat coordinating a world of modular, verifiable, reloadable subsystems.  
 Everything else is just a job.
+
+---
+
+## 18. Namespace → folder rules (simple and future-proof)
+
+TKSM.Abstractions.* → src/TKSM.Abstractions/**
+
+TKSM.Core.* → src/TKSM.Core/**
+
+TKSM.Observability.* → src/TKSM.Observability/**
+
+TKSM.Extensibility.* → src/TKSM.Extensibility/**
+
+TKSM.Host.Cli.* → src/TKSM.Host.Cli/**
+
+TKSM.Host.Daemon.* → src/TKSM.Host.Daemon/**
+
+TKSM.Host.Web.* → src/TKSM.Host.Web/** (only when needed)
+
+TKSM.Tools.* → src/TKSM.Tools/**
+
+Samples and test projects mirror the same namespace boundaries.
