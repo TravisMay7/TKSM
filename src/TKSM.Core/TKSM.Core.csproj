@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Logging\" />
-    <Folder Include="Projections\" />
+    <ProjectReference Include="..\TKSM.Abstractions\TKSM.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

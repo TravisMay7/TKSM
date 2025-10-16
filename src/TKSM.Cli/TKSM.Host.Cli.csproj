@@ -1,14 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Profiles\" />
-    <Folder Include="Shell\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Profiles\" />
+		<Folder Include="Shell\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TKSM.Abstractions\TKSM.Abstractions.csproj" />
+		<ProjectReference Include="..\TKSM.Core\TKSM.Core.csproj" />
+	</ItemGroup>
 
 </Project>
